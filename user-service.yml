@@ -15,7 +15,7 @@ spring:
       database-platform: org.hibernate.dialect.MySQL8Dialect
 
   config:
-    import: optional:configserver:http://localhost:8089/
+    import: optional:configserver:http://localhost:8888/
 
 server:
   port: 8081
